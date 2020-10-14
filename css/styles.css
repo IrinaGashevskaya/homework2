@@ -1,0 +1,64 @@
+:root {
+    --primary-text-color:#FFFFFF;
+    --title-text-color:#212121;
+    --secondary-text-color:#757575;
+    --accent-color:#2196F3;
+}
+.menu a {
+    color: var(--title-text-color);
+}
+.menu a:hover,
+.menu a:focus {
+    color: var(--accent-color);
+}
+.menu a.current {
+    color: var(--accent-color);
+}
+.section-general {
+    background-color:#2F303A;
+}
+.title-white {
+    color:#FFFFFF;
+}
+.info-contacts a {
+    color: var(--secondary-text-color); 
+}
+.contacts a {
+    color: rgba(255,255,255,0.6);
+}
+.info-contacts a:hover {
+    color: var(--accent-color);
+}
+.contacts a:hover {
+    color: var(--accent-color);
+}
+.section-text.title {
+    color: var(--title-text-color);
+}
+.text-grey {
+    color:#757575;
+}
+.colortext {
+    color:#2196F3;
+}
+.text-black {
+    color:#000000;
+}
+.text-white {
+    color:#FFFFFF;
+}
+.footer-black {
+    background-color:#2F303A;
+}
+.info-address {
+    color:#FFFFFF;
+}
+.section-team {
+    background-color:#F5F4FA;
+}
+.section-team.title {
+    color: var(--title-text-color);
+}
+.text-team {
+    background-color:#FFFFFF;
+}
