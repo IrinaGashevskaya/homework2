@@ -128,7 +128,8 @@ body {
 } 
 /*Портфолио*/
 .button-primary:hover {
-    color: var(--accent-color);
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
 }
 
 .button-primary {
@@ -139,10 +140,6 @@ body {
     text-align: center;
     color: #212121;
     background-color:#F5F4FA;
-}
-.button-primary-current {
-    color: var(--primary-text-color);
-    background-color: var(--accent-color);
 }
 .title-primary {
     font-weight:700;
